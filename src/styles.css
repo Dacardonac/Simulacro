@@ -130,15 +130,18 @@ nav i {
 }
 
 .viajes {
-    padding: 35px 150px;
+    padding: 35px 150px 35px 180px;
     display: flex;
     flex-wrap: wrap;
+    line-height: 0;
+    gap: 7px;
 }
 
-figure {
-    margin: 7px;
-    line-height: 0;
+.comentarios {
+    display: flex;
+    flex-direction: column;
 }
+
 
 .contenido {
     display: flex;
@@ -176,7 +179,7 @@ figure {
     margin: 10px 0px;
 }
 
-.publicidad {
+section .publicidad {
     width: 20%;
     border: #000000;
     display: flex;
@@ -184,21 +187,34 @@ figure {
     font-size: 10px;
 }
 
+.publicidad h2 {
+    font-size: 1rem;
+    margin: 20px;
+    color: #313131;
+}
+
 .publicidad figure {
     margin: 10px;
 }
 
-.publicidad p {
-    margin: 50px;
-}
-
-.publicidad aside {
-    align-items: center;
+.publicidad .comentarios img {
+    height: 50px;
+    width: 100px;
+    margin: 10px;
 }
 
 .publicidad img {
-    width: 200px;
     height: 200px;
+    width: 250px;
+}
+
+.tarjeta p {
+    margin: 10px 10px 10px 0px;
+}
+
+.tarjeta {
+    display: flex;
+    align-items: center;
 }
 
 .pie{
